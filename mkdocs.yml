@@ -23,3 +23,7 @@ nav:
 theme:
   name: material
    
+extra:
+  schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
+  textbook_name: ASL Book
+  textbook_version: "1.0"
