@@ -10,18 +10,18 @@
 
 | Category | TaxonomyID | Count | Percentage | Status |
 |----------|-----------|-------|------------|--------|
-| BASIC | BASIC | 20 | 10.0% | ✅ |
-| CONV | CONV | 20 | 10.0% | ✅ |
-| EMOT | EMOT | 20 | 10.0% | ✅ |
-| FOOD | FOOD | 20 | 10.0% | ✅ |
-| GRAM | GRAM | 20 | 10.0% | ✅ |
-| DESC | DESC | 16 | 8.0% | ✅ |
-| PRON | PRON | 15 | 7.5% | ✅ |
-| PEOP | PEOP | 15 | 7.5% | ✅ |
-| VERB | VERB | 15 | 7.5% | ✅ |
-| CULT | CULT | 15 | 7.5% | ✅ |
-| ANIM | ANIM | 14 | 7.0% | ✅ |
-| Foundation Concepts - Prerequisites | FOUND | 10 | 5.0% | ✅ |
+| Alphabet & Numbers | BASIC | 20 | 10.0% | ✅ |
+| Conversation Basics | CONV | 20 | 10.0% | ✅ |
+| Emotions & Feelings | EMOT | 20 | 10.0% | ✅ |
+| Food & Eating | FOOD | 20 | 10.0% | ✅ |
+| Grammar & Expression | GRAM | 20 | 10.0% | ✅ |
+| Descriptive Words | DESC | 16 | 8.0% | ✅ |
+| Pronouns & Reference | PRON | 15 | 7.5% | ✅ |
+| People & Family | PEOP | 15 | 7.5% | ✅ |
+| Action Verbs | VERB | 15 | 7.5% | ✅ |
+| Culture & Communication | CULT | 15 | 7.5% | ✅ |
+| Animals & Nature | ANIM | 14 | 7.0% | ✅ |
+| Foundation Concepts | FOUND | 10 | 5.0% | ✅ |
 
 ## Visual Distribution
 
@@ -48,7 +48,7 @@ All categories are under the 30% threshold. Good balance!
 
 ## Category Details
 
-### BASIC (BASIC)
+### Alphabet & Numbers (BASIC)
 
 **Count**: 20 concepts (10.0%)
 
@@ -71,7 +71,7 @@ All categories are under the 30% threshold. Good balance!
 - 25. Number 5
 - *...and 5 more*
 
-### CONV (CONV)
+### Conversation Basics (CONV)
 
 **Count**: 20 concepts (10.0%)
 
@@ -94,7 +94,7 @@ All categories are under the 30% threshold. Good balance!
 - 45. Name
 - *...and 5 more*
 
-### EMOT (EMOT)
+### Emotions & Feelings (EMOT)
 
 **Count**: 20 concepts (10.0%)
 
@@ -117,7 +117,7 @@ All categories are under the 30% threshold. Good balance!
 - 80. Brave
 - *...and 5 more*
 
-### FOOD (FOOD)
+### Food & Eating (FOOD)
 
 **Count**: 20 concepts (10.0%)
 
@@ -140,7 +140,7 @@ All categories are under the 30% threshold. Good balance!
 - 115. Cookie
 - *...and 5 more*
 
-### GRAM (GRAM)
+### Grammar & Expression (GRAM)
 
 **Count**: 20 concepts (10.0%)
 
@@ -163,7 +163,7 @@ All categories are under the 30% threshold. Good balance!
 - 180. Head Shake
 - *...and 5 more*
 
-### DESC (DESC)
+### Descriptive Words (DESC)
 
 **Count**: 16 concepts (8.0%)
 
@@ -186,7 +186,7 @@ All categories are under the 30% threshold. Good balance!
 - 149. Bad
 - *...and 1 more*
 
-### PRON (PRON)
+### Pronouns & Reference (PRON)
 
 **Count**: 15 concepts (7.5%)
 
@@ -208,7 +208,7 @@ All categories are under the 30% threshold. Good balance!
 - 64. Negation
 - 65. Question Formation
 
-### PEOP (PEOP)
+### People & Family (PEOP)
 
 **Count**: 15 concepts (7.5%)
 
@@ -230,7 +230,7 @@ All categories are under the 30% threshold. Good balance!
 - 99. Boy
 - 100. Girl
 
-### VERB (VERB)
+### Action Verbs (VERB)
 
 **Count**: 15 concepts (7.5%)
 
@@ -252,7 +252,7 @@ All categories are under the 30% threshold. Good balance!
 - 164. Practice
 - 165. Perform
 
-### CULT (CULT)
+### Culture & Communication (CULT)
 
 **Count**: 15 concepts (7.5%)
 
@@ -274,7 +274,7 @@ All categories are under the 30% threshold. Good balance!
 - 199. Storytelling
 - 200. Self-Expression
 
-### ANIM (ANIM)
+### Animals & Nature (ANIM)
 
 **Count**: 14 concepts (7.0%)
 
@@ -295,7 +295,7 @@ All categories are under the 30% threshold. Good balance!
 - 134. Nature
 - 135. Environment
 
-### Foundation Concepts - Prerequisites (FOUND)
+### Foundation Concepts (FOUND)
 
 **Count**: 10 concepts (5.0%)
 

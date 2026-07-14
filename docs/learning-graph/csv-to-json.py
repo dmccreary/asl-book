@@ -13,7 +13,7 @@ from typing import Dict, List
 from datetime import datetime
 
 
-def csv_to_json(csv_path: str, json_path: str, color_config: dict = None, metadata: dict = None):
+def csv_to_json(csv_path: str, json_path: str, color_config: dict = None, metadata: dict = None, taxonomy_names_config: dict = None):
     """
     Convert CSV dependency graph to vis.js JSON format with metadata and groups.
 
@@ -24,6 +24,7 @@ def csv_to_json(csv_path: str, json_path: str, color_config: dict = None, metada
                      If not provided, uses default color scheme.
         metadata: Optional dictionary with metadata fields (title, description, creator, etc.)
                  If not provided, creates minimal metadata.
+        taxonomy_names_config: Optional dictionary mapping taxonomy IDs to human-readable names.
     """
     # Default taxonomy group colors for visualization
     # Uses web-safe pastel color names (no hex codes)
@@ -92,6 +93,9 @@ def csv_to_json(csv_path: str, json_path: str, color_config: dict = None, metada
         '9': 'Miscellaneous Concepts',
         '10': 'Extended Topics',
     }
+
+    if taxonomy_names_config is not None:
+        taxonomy_names.update(taxonomy_names_config)
 
     # Read CSV
     nodes = []
@@ -271,7 +275,18 @@ if __name__ == "__main__":
         except FileNotFoundError:
             print(f"⚠️  Metadata file not found: {metadata_file}, using defaults")
 
-    graph_data = csv_to_json(csv_path, json_path, color_config, metadata)
+    # Load taxonomy names if provided
+    taxonomy_names_config = None
+    if len(sys.argv) > 5:
+        taxonomy_names_file = sys.argv[5]
+        try:
+            with open(taxonomy_names_file, 'r', encoding='utf-8') as f:
+                taxonomy_names_config = json.load(f)
+            print(f"📋 Loaded taxonomy names from: {taxonomy_names_file}")
+        except FileNotFoundError:
+            print(f"⚠️  Taxonomy names file not found: {taxonomy_names_file}, using defaults")
+
+    graph_data = csv_to_json(csv_path, json_path, color_config, metadata, taxonomy_names_config)
     create_taxonomy_legend(graph_data['groups'])
 
     print("\n✅ CSV to JSON format complete.  Ready to use with graph-viewer!")

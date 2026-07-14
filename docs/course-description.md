@@ -1,3 +1,8 @@
+---
+title: Course Description for Course Introduction to American Sign Language (ASL)
+description: A detailed course description for Introduction to American Sign Language (ASL) including overview, topics covered and learning objectives in the format of the 2001 Bloom Taxonomy
+quality_score: 95
+---
 # Course Description
 
 **Title:** Introduction to American Sign Language (ASL): Communication Through Movement and Expression

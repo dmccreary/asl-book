@@ -2,7 +2,7 @@
 
 **Course:** Introduction to American Sign Language (ASL): Communication Through Movement and Expression
 
-**Assessment Date:** 2025-12-29
+**Assessment Date:** 2026-07-14
 
 ## Quality Score: 95/100
 

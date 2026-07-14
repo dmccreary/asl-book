@@ -40,10 +40,11 @@
     "map"
   ],
   "learningObjectives": [
-    "Understand the mathematical concept of asl hand viewer",
-    "Apply asl hand viewer to solve problems",
-    "Visualize and interpret asl hand viewer relationships",
-    "Experiment with parameters to observe their effects on asl hand viewer"
+    "Identify the finger positions that distinguish ASL handshapes A, B, C, and 'I Love You' using the preset poses",
+    "Manipulate individual finger curl sliders to reconstruct a target ASL handshape from an open hand",
+    "Describe the hierarchical joint structure of the hand (palm, metacarpal, proximal, middle, distal segments) using the joint marker overlay",
+    "Compare right-hand and left-hand versions of the same handshape using mirror mode",
+    "Examine a handshape from multiple viewpoints by rotating, panning, and zooming the 3D camera"
   ],
   "pedagogical": {
     "pattern": "demonstration",

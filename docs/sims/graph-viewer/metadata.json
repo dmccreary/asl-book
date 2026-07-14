@@ -44,10 +44,10 @@
     "map"
   ],
   "learningObjectives": [
-    "Understand the mathematical concept of learning graph viewer",
-    "Apply learning graph viewer to solve problems",
-    "Visualize and interpret learning graph viewer relationships",
-    "Experiment with parameters to observe their effects on learning graph viewer"
+    "Identify prerequisite relationships between ASL concepts by following directed edges in the course learning graph",
+    "Locate a specific ASL concept node with the search box and inspect which concepts depend on it",
+    "Filter the graph by taxonomy category to isolate one strand of the ASL curriculum, such as foundation skills",
+    "Trace a learning path from foundational concepts to an advanced ASL skill using the dependency edges"
   ],
   "pedagogical": {
     "pattern": "demonstration",
