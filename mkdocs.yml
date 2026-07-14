@@ -17,12 +17,31 @@ nav:
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Quality Metrics: learning-graph/quality-metrics.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Mascot Integration Test: learning-graph/mascot-test.md
+  - Chapters:
+    - List of Chapters: chapters/index.md
+    - 1. Introduction and ASL Foundations: chapters/01-intro-asl-foundations/index.md
+    - 2. Fingerspelling and Numbers: chapters/02-fingerspelling-numbers/index.md
+    - 3. Basic Conversational Phrases: chapters/03-basic-conversation/index.md
+    - 4. Pronouns and Signing Space: chapters/04-pronouns-signing-space/index.md
+    - 5. Expressing Emotions and Feelings: chapters/05-emotions-feelings/index.md
+    - 6. Family and People: chapters/06-family-people/index.md
+    - 7. Food and Favorite Things: chapters/07-food-favorites/index.md
+    - 8. Animals and Nature: chapters/08-animals-nature/index.md
+    - 9. Describing the World: chapters/09-describing-world/index.md
+    - 10. Action Verbs and Activities: chapters/10-action-verbs-activities/index.md
+    - 11. ASL Grammar and Expression: chapters/11-asl-grammar-expression/index.md
+    - 12. Deaf Culture and Communication: chapters/12-deaf-culture-communication/index.md
   - Visualizations:
     - Graph Viewer: sims/graph-viewer/index.md
     - Hand Viewer: sims/hand-viewer/index.md
 theme:
   name: material
+  logo: img/mascot/neutral.png
    
+extra_css:
+  - css/extra.css
+
 extra:
   schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
   textbook_name: ASL Book
