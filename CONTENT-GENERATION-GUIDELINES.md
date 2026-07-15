@@ -96,3 +96,29 @@ To prevent distraction and maintain visual flow:
 * **No Back-to-Back**: Never place two mascot admonitions directly adjacent to each other. They must be separated by standard chapter prose or headings.
 * **Sentence Limit**: Mascot dialogue in callout boxes must be **between 1 and 3 sentences** (target is 2 sentences).
 * **Relative Paths**: Always check your directory depth when linking images. For standard chapters at `chapters/chapter-name/index.md`, the relative path is `../../img/mascot/`.
+
+---
+
+## 4. 3D Hand Animation Placeholder Rules
+
+When you need to show an image of one or two hands that have motion (such as demonstrating fingerspelling transitions, fingerspelling movement, or specific signs in action), assume a 3D hand animation tool is present. Use the following placeholder format:
+
+#### Diagram: [Name of the Sign/Hand Movement]
+<details type="3d-hands-animation">
+[Provide a detailed description of the 3D hand animation: handshapes, movement paths, palm orientation transitions, and any facial expressions or non-manual signals.]
+</details>
+
+---
+
+## 5. Narrative Depth & Educational Scaffolding
+
+To maintain a high-quality, professional textbook standard, avoid brief summaries and ensure all content sections are detailed and comprehensive.
+
+### Narrative Depth
+* **Storytelling**: Incorporate narrative descriptions of key historical moments (e.g., Laurent Clerc and Gallaudet's ship voyage, Alice Cogswell's first signs) and cultural scenes to hook the student's interest.
+* **Cultural & Historical Spotlights**: Add dedicated multi-paragraph spotlights (such as the Gallaudet University Deaf President Now movement of 1988) explaining the civil rights and social significance of Deaf events.
+* **Real-World Scenarios**: Write dialogue scripts transcribing ASL conversations in context to ground vocabulary in authentic communication.
+
+### Q&A Comprehension Checkpoints
+* **Review Questions**: Place collapsible admonition boxes (`??? question "Check Your Understanding - Click to Expand"`) at the end of every major section.
+* **Content**: Each checkpoint should contain scenario-based or conceptual questions with detailed explanations that reveal on click to reinforce self-paced learning.

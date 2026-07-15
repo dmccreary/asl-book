@@ -20,14 +20,11 @@ Below are the seven standard poses of Mimi the Chameleon.
 
 Here are examples of how Mimi will appear inside textbook custom boxes:
 
-!!! tip "Tip from Mimi"
-    ![Tip](../img/mascot/tip.png){ align=left width=60 }
+!!! mascot-tip "Mimi's Tip"
+    ![Tip](../img/mascot/tip.png){ class="mascot-admonition-img" }
     **Remember:** Facial expressions are not just extra emotion in ASL—they are a grammatical requirement! Raising your eyebrows marks a yes/no question.
 
-<br clear="left">
-
-!!! warning "Common Pitfall"
-    ![Warning](../img/mascot/warning.png){ align=left width=60 }
+!!! mascot-warning "Common Pitfall"
+    ![Warning](../img/mascot/warning.png){ class="mascot-admonition-img" }
     **Watch Out:** Don't bounce your hand when fingerspelling double letters like 'EE' or 'OO'. Instead, slide your hand slightly to the side or double-tap the letter.
 
-<br clear="left">
